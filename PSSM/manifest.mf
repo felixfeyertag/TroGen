@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.mcr.trogen.pssm
+OpenIDE-Module-Localizing-Bundle: org/mcr/trogen/pssm/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

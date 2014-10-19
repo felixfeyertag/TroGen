@@ -1,0 +1,15 @@
+/libsvm/build/
+/jfxrt/build/
+/ChargeRule/build/
+/FastaFileType/build/
+/TroGenFileType/build/
+/Interface/build/
+/Utilities/build/
+/Core/build/
+/PSSM/build/
+/SupportVectorMachine/build/
+/build/
+/jfxrt_/build/
+/jfxrt/nbproject/private/
+/CommandLine/build/
+/dist/

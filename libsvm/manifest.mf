@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.mcr.libsvm
+OpenIDE-Module-Localizing-Bundle: org/mcr/libsvm/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.mcr.trogen.filetype
+OpenIDE-Module-Localizing-Bundle: org/mcr/trogen/filetype/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

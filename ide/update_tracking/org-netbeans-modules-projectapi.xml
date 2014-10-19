@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.projectapi/1">
+    <module_version install_time="1381502473144" last="true" origin="installer" specification_version="1.54.1">
+        <file crc="2566874220" name="config/ModuleAutoDeps/org-netbeans-modules-projectapi.xml"/>
+        <file crc="1088517943" name="config/Modules/org-netbeans-modules-projectapi.xml"/>
+        <file crc="1857721635" name="modules/locale/org-netbeans-modules-projectapi_ja.jar"/>
+        <file crc="297270714" name="modules/locale/org-netbeans-modules-projectapi_pt_BR.jar"/>
+        <file crc="2495121415" name="modules/locale/org-netbeans-modules-projectapi_ru.jar"/>
+        <file crc="2914838016" name="modules/locale/org-netbeans-modules-projectapi_zh_CN.jar"/>
+        <file crc="2700823762" name="modules/org-netbeans-modules-projectapi.jar"/>
+    </module_version>
+</module>

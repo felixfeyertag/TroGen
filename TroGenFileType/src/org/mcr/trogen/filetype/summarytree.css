@@ -1,0 +1,125 @@
+/* 
+    Document   : summarytree
+    Created on : 05-Aug-2013, 14:24:28
+    Author     : Felix Feyertag <felix.feyertag@manchester.ac.uk>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+.tree-view {
+    -fx-padding: 1;
+    -fx-background-color: null;
+    -fx-background-insets: 0,1;
+}
+.tree-view:focused {
+    -fx-padding: 1;
+    -fx-background-color: null;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: -1.4, 0, 0;
+}
+.tree-cell {
+    -fx-font: bold 14pt "Amble Cn";
+    -fx-text-fill: white;
+    -fx-background-color: null;    
+    -fx-cell-size: 24;
+    -fx-indent: 6;
+    -fx-padding: 3;
+}
+.tree-cell:odd {
+    -fx-background-color: null;
+}
+.tree-disclosureNode {
+    -fx-background-color: red;
+    -fx-padding: 5;
+    -fx-shape: "M 0 -5 L 10 0 L 0 5 z";
+}
+.tree-cell:filled:selected *.tree-disclosureNode {
+    -fx-background-color: red;
+}
+.tree-cell:filled:selected {
+    -fx-background: grey;
+    -fx-background-color: aqua;
+    -fx-text-fill: orange;
+}
+.tree-view *.scroll-bar:horizontal {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 3 0 0 0;
+}
+.tree-view *.scroll-bar:vertical {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0 0 0 3;
+}
+.tree-view *.scroll-bar:horizontal *.thumb {
+    -fx-background-color: antiquewhite;
+    -fx-background-radius: 3;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.tree-view *.scroll-bar:vertical *.thumb {
+    -fx-background-color: yellow;
+    -fx-background-radius: 3;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.tree-view *.scroll-bar:horizontal *.track {
+    -fx-background-color: orange;
+    -fx-background-radius: 3;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.tree-view *.scroll-bar:vertical *.track {
+    -fx-background-color: maroon;
+    -fx-background-radius: 3;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.tree-view *.scroll-bar *.increment-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.tree-view *.scroll-bar *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.tree-view *.scroll-bar:horizontal *.increment-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 6 0 3 0;
+    -fx-shape: null;
+}
+.tree-view *.scroll-bar:vertical *.increment-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0 6 0 3;
+    -fx-shape: null;
+}
+.tree-view *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 6 0 3 0;
+    -fx-shape: null;
+}
+.tree-view *.scroll-bar:vertical *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0 6 0 3;
+    -fx-shape: null;
+}
+

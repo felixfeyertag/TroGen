@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/newXMLDocument1.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE Hello SYSTEM "newXMLDocument1.dtd">
+
+    <Hello>
+    ...
+    </Hello>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Hello EMPTY>
+<!ATTLIST Hello
+    Foo CDATA #IMPLIED
+    xmlns CDATA #IMPLIED
+  >
